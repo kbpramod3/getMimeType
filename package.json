@@ -1,0 +1,14 @@
+{
+  "name": "get-mimetype",
+  "version": "1.0.0",
+  "description": "package to get MIME type based on file extension",
+  "main": "src/index.js",
+  "type": "module",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
