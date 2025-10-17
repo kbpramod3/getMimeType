@@ -1,5 +1,5 @@
 {
-  "name": "get-mimetype",
+  "name": "mimetype-file",
   "version": "1.0.0",
   "description": "package to get MIME type based on file extension",
   "main": "src/index.js",

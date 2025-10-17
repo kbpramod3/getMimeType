@@ -1,8 +1,8 @@
 
-# get-mimetype
+# mimetype-file
 
-[![npm version](https://img.shields.io/npm/v/get-mimetype.svg?style=flat-square)](https://www.npmjs.com/package/get-mimetype)
-[![License](https://img.shields.io/npm/l/get-mimetype.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/mimetype-file.svg?style=flat-square)](https://www.npmjs.com/package/mimetype-file)
+[![License](https://img.shields.io/npm/l/mimetype-file.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 A tiny utility to get the MIME type from a file extension.
 This package helps detect the MIME type of a file quickly based on its name or extension.
@@ -14,13 +14,13 @@ This package helps detect the MIME type of a file quickly based on its name or e
 Using npm:
 
 ```
-npm install get-mimetype
+npm install mimetype-file
 ```
 
 Using Yarn:
 
 ```
-yarn add get-mimetype-pramod
+yarn add mimetype-file
 ```
 
 ---
@@ -29,7 +29,7 @@ yarn add get-mimetype-pramod
 
 ```js
 // CommonJS
-const getMimeType = require('get-mimetype-pramod');
+const getMimeType = require('mimetype-file');
 
 console.log(getMimeType('photo.jpg'));      // image/jpeg
 console.log(getMimeType('video.avi'));      // video/x-msvideo
@@ -39,7 +39,7 @@ console.log(getMimeType('unknown.xyz'));    // application/octet-stream
 
 ```js
 // ES Modules
-import getMimeType from 'get-mimetype';
+import getMimeType from 'mimetype-file';
 
 console.log(getMimeType('audio.mp3'));      // audio/mpeg
 ```
